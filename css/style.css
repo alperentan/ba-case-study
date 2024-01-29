@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bckgrnd-blue {
+    background-color: rgb(6, 103, 182);
+}
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+.suggest-section {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/image002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.textbox {
+    color: white;
+}
+.buttons-container {
+    position: absolute;
+    bottom: -33px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+.btn-pd {
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    margin-right: 20px;
+    border-radius: 25px;
+    color: #fff;
+}
+.btn-blue {
+    background-color: #00d9ff;
+    border-color: #00d9ff;
+}
+.btn-blue:hover {
+    background-color: #0c95ad;
+    border-color: #0c95ad;
+}
+.btn-green {
+    background-color: #7ed338;
+    border-color: #7ed338;
+}
+.btn-green:hover {
+    background-color: #61a02e;
+    border-color: #61a02e;
+}
+.btn-red {
+    background-color: #e24775;           
+    border-color: #e24775;
+}
+.btn-red:hover {
+    background-color: #b1375c;           
+    border-color: #b1375c;
+}
+.icn{
+    font-size: 50px;
+}
+#autoComplete{
+    width: 550px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+.duyurular{
+    margin-top: 5%; 
+    padding-left: 10%;
+}
+@media screen and (max-width: 1210px){
+    .btn-pd {
+        padding: 10px 20px;
+        font-size: 12px;
+    }    
+    .buttons-container {
+        bottom: -20px;
+    }
+    .icn{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 600px){
+    .btn-pd {
+        padding: 5px 10px;
+        font-size: 10px;
+        margin-right: 0;
+    }    
+    .buttons-container {
+        bottom: -17px;
+    }
+    .icn{
+        font-size: 22px;
+    }
+    #autoComplete {
+        font-size: 14px;
+        width: 288px;
+        height: 40px;
+        border-radius: 25px;
+    }
+    .duyurular{
+        padding-left: 0;
+    }
+}

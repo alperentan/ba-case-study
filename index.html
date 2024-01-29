@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/css/autoComplete.01.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>BilgeAdam</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bckgrnd-blue" data-bs-theme="dark">
+      <div class="container-fluid">
+        <span class="navbar-brand mb-0 h1">BilgeAdam</span>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Hizmet Kataloğu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GÜLŞAH ÖZAKINCI</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="suggest-section">
+      <h2 class="textbox">Size Nasıl Yardımcı Olabiliriz?</h2>
+
+      <div>
+        <input
+          id="autoComplete"
+          type="search"
+          dir="ltr"
+          spellcheck="false"
+          autocorrect="off"
+          autocomplete="off"
+          autocapitalize="off"
+        />
+      </div>
+
+      <div class="buttons-container">
+        <button type="button" class="btn btn-blue btn-pd">
+          <span class="material-symbols-outlined icn">
+            assignment_turned_in
+          </span>
+          İstek Bildir
+        </button>
+        <button type="button" class="btn btn-green btn-pd">
+          <span class="material-symbols-outlined icn"> assignment_late </span
+          >Sorun Bildir
+        </button>
+        <button type="button" class="btn btn-red btn-pd">
+          <span class="material-symbols-outlined icn"> book_4 </span>Tüm
+          Kayıtlarım
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="duyurular">
+              <h5>Duyurular</h5>
+              <p>Buraya duyurular gelecek buraya duyurular gelecek</p>
+              <p>Buraya duyurular gelecek</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@tarekraafat/autocomplete.js@10.2.7/dist/autoComplete.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"
+      integrity="sha512-X/YkDZyjTf4wyc2Vy16YGCPHwAY8rZJY+POgokZjQB2mhIRFJCckEGc6YyX9eNsPfn0PzThEuNs+uaomE5CO6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
