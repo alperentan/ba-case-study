@@ -1,5 +1,5 @@
 # Bilge Adam Case Study Project
-This is a repository for Bilge Adam Case Study project used for searching through cities by typing in the provided search bar.
+This is a repository for Bilge Adam case study project used for searching through cities by typing in the provided search bar.
 
 Introduction
 -------------
